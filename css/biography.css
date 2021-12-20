@@ -211,7 +211,15 @@ p, li, a {
 
 .photos__image {
   background-color: #121212;
+  border-radius: 10px;
   width: 100%;
+  filter: saturate(50%);
+}
+
+.photos__image:hover{
+  transition: 1s;
+  filter: saturate(100%);
+  transform:translateX(5px)
 }
 
 .main__section {
