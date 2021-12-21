@@ -264,11 +264,11 @@ p, li, a {
   width: 100%;
   border-radius: 15px;
   filter: brightness(80%);
+  transition: 1s linear;
 }
 .block__image:hover {
   filter: brightness(100%);
   transform: translateX(-15px);
-  transition: 1s;
 }
 
 .footer {
