@@ -236,7 +236,15 @@ p, li, a {
   border-left: limegreen 3px solid;
   background-color: #252525;
 }
-
+.photos__link{
+  color:#b6b6b6;
+  font-size: 14px;
+  text-decoration: none;
+}
+.photos__link:hover{
+  color:#ffffff;
+  text-decoration: underline;
+}
 .footer {
   background-color: black;
 }
