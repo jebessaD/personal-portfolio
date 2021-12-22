@@ -214,10 +214,10 @@ p, li, a {
   border-radius: 10px;
   width: 100%;
   filter: saturate(50%);
+  transition: 0.6s linear;
 }
 
 .photos__image:hover{
-  transition: 1s;
   filter: saturate(100%);
   transform:translateX(5px)
 }
